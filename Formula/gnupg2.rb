@@ -2,11 +2,11 @@ require "formula"
 
 class Gnupg2 < Formula
   homepage "https://www.gnupg.org/"
-  url "ftp://ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.8.tar.bz2"
-  mirror "ftp://ftp.mirrorservice.org/sites/ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.8.tar.bz2"
-  mirror "ftp://mirror.tje.me.uk/pub/mirrors/ftp.gnupg.org/gnupg/gnupg-2.1.8.tar.bz2"
-  sha1 "61f5bc656dd7fddd4ab67b720d47ef0651bfb727"
-  revision 4
+  url "ftp://ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.9.tar.bz2"
+  mirror "ftp://ftp.mirrorservice.org/sites/ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.9.tar.bz2"
+  mirror "ftp://mirror.tje.me.uk/pub/mirrors/ftp.gnupg.org/gnupg/gnupg-2.1.9.tar.bz2"
+  sha1 "119bab38d2ff3a849be62914be9bf7333da68883"
+  revision 5
 
   option "8192", "Build with support for private keys of up to 8192 bits"
 
